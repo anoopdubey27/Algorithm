@@ -19,7 +19,7 @@ public class Solution {
         	res="not an acid";
         }
         
-        return res;
+        return acid_name.substring(acid_name.length()-2,acid_name.length());
     }
 
     public static void main(String[] args) {
