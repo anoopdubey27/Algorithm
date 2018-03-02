@@ -14,7 +14,7 @@ public class BIGSALE {
 			int[] arr=new int[3*n];
 			for(int j=0;j<3*n;j++) {
 				arr[j]=s.nextInt();
-			}
+			} 
 			double res=0.000000;
 			for(int j=0;j<3*n;j+=3) {
 				double bp=(double)arr[j]*(1+(double)arr[j+2]/100);
